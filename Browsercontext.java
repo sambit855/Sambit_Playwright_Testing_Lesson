@@ -19,7 +19,7 @@ public class Browsercontext {
 			Page page = brws1.newPage();
 			page.navigate("https://www.google.com/");
 			String title = page.title();
-			System.out.println("Page title is : " + title);
+			System.out.println( "Page title is : " +title);
 
 			BrowserContext brws2 = browser.newContext();
 			Page page2 = brws2.newPage();
@@ -47,3 +47,5 @@ public class Browsercontext {
 	}
 
 }
+
+
