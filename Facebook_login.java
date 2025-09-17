@@ -24,7 +24,7 @@ page.locator("id=pass").fill("gsds#42jshds");
 
 page.locator("button[name=login]").click();
 browser.close();
-playwright.close();
+
 
 
 
@@ -32,5 +32,6 @@ playwright.close();
 
 
 	}
+
 
 }
