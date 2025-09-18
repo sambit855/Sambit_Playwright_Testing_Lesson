@@ -20,7 +20,7 @@ System.out.println("page title is |:" +title);
 page.locator("id=email").click();
 page.locator("id=email").fill("sambit85@gmail.com");
 page.locator("id=pass").click();
-page.locator("id=pass").fill("gsds#42jshds");
+page.locator("id=pass").fill("gsds#42jsh");
 
 page.locator("button[name=login]").click();
 browser.close();
@@ -35,3 +35,4 @@ browser.close();
 
 
 }
+
